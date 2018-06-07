@@ -1,0 +1,10 @@
+---
+
+spring:
+  profiles: cloud 
+ 
+zuul:
+  routes:
+    placements:
+      path: /placements/**
+      serviceId: placements
