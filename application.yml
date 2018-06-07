@@ -1,10 +1,10 @@
 ---
 
-info:
-  description: message to all cw portal apps
-
 spring:
   profiles: cloud
+
+info:
+  description: message to all cw portal apps
 
 eureka:
   client:
