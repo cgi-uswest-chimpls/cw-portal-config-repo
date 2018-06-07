@@ -1,7 +1,7 @@
 ---
 
 info:
-  description: 'Hello, world'
+  description: message to all cw portal apps
 
 spring:
   profiles: cloud
