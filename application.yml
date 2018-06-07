@@ -2,3 +2,11 @@
 
 info:
   description: 'Hello, world'
+
+spring:
+  profiles: cloud
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${vcap.services.cw-portal-service-registry.credentials.uri}/eureka
