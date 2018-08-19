@@ -10,3 +10,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${vcap.services.cw-portal-service-registry.credentials.uri}/eureka
+
+ribbon:
+  ReadTimeout: 20000
+  ConnectTimeout: 20000
