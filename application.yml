@@ -8,6 +8,7 @@ info:
 
 eureka:
   client:
+    fetch-registry: false
     serviceUrl:
       defaultZone: ${vcap.services.cw-portal-service-registry.credentials.uri}/eureka/
 
